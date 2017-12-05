@@ -4,8 +4,25 @@
 # Path to your oh-my-zsh installation.
 ZSH=/usr/share/oh-my-zsh/
 
-# load powerlevel9k theme config
-source .powerlevel9k
+# zsh powerlevel9k theme config
+POWERLEVEL9K_MODE='nerdfont-complete'
+DEFAULT_USER=$USER
+POWERLEVEL9K_DIR_SHOW_WRITABLE=false
+POWERLEVEL9K_LOAD_CRITICAL_BACKGROUND="black"
+POWERLEVEL9K_LOAD_WARNING_BACKGROUND="black"
+POWERLEVEL9K_LOAD_NORMAL_BACKGROUND="black"
+POWERLEVEL9K_LOAD_CRITICAL_FOREGROUND="249"
+POWERLEVEL9K_LOAD_WARNING_FOREGROUND="249"
+POWERLEVEL9K_LOAD_NORMAL_FOREGROUND="249"
+POWERLEVEL9K_LOAD_CRITICAL_VISUAL_IDENTIFIER_COLOR="red"
+POWERLEVEL9K_LOAD_WARNING_VISUAL_IDENTIFIER_COLOR="yellow"
+POWERLEVEL9K_LOAD_NORMAL_VISUAL_IDENTIFIER_COLOR="green"
+POWERLEVEL9K_RAM_BACKGROUND="black"
+POWERLEVEL9K_RAM_FOREGROUND="249"
+POWERLEVEL9K_NODE_VERSION_FOREGROUND="black"
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status context dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(root_indicator background_jobs load ram_joined node_version)
+POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
