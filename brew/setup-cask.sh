@@ -18,7 +18,7 @@ if type -p brew &>/dev/null; then
                 java
                 arduino
                 spotify
-		font-hack-nerd-font
+		font-mononoki-nerd-font
         )
 
         brew cask install "${apps[@]}"
