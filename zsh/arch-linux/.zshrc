@@ -61,6 +61,8 @@ plugins=(
   nvm-auto-use
   systemd
   web-search
+  zsh-autosuggestions
+  zsh-syntax-highlighting
 )
 
 

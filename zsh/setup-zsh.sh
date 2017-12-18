@@ -13,6 +13,8 @@ if type -p brew; then
     git clone https://github.com/bhilburn/powerlevel9k.git $HOME/.oh-my-zsh/custom/themes/powerlevel9k
     git clone https://github.com/djui/alias-tips.git $HOME/.oh-my-zsh/custom/plugins/alias-tips
     git clone https://github.com/tomsquest/nvm-auto-use.zsh.git $HOME/.oh-my-zsh/custom/plugins/nvm-auto-use
+    git clone https://github.com/zsh-users/zsh-autosuggestions.git $HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
     zshrc_path=$HOME/.zshrc
 

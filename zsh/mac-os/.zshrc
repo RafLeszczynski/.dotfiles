@@ -63,6 +63,8 @@ plugins=(
   nvm-auto-use
   osx
   web-search
+  zsh-autosuggestions
+  zsh-syntax-highlighting
 )
 
 
