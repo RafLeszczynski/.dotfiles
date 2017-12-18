@@ -1,27 +1,30 @@
 #!/bin/bash
 
 if type -p brew &>/dev/null; then
-	brew tap caskroom/cask;
-	brew tap caskroom/fonts;
-	
-	brew install cask;
+    brew tap caskroom/cask;
+    brew tap caskroom/fonts;
 
-	apps=(
-                slack
-                google-chrome
-                firefox
-                iterm2
-                vlc
-                webstorm
-                dropbox
-                studio-3t
-                java
-                arduino
-                spotify
-		font-mononoki-nerd-font
-        )
+    brew install cask;
 
-        brew cask install "${apps[@]}"
+    apps=(
+        arduino
+        caffeine
+        dropbox
+        firefox
+        font-mononoki-nerd-font
+        google-chrome
+        istat-menus
+        iterm2
+        java
+        slack
+        spotify
+        studio-3t
+        virtualbox
+        vlc
+        webstorm
+    )
+
+    brew cask install "${apps[@]}"
 else
-	echo 'Install Homebrew first!'
+    echo 'Install Homebrew first!'
 fi
