@@ -4,7 +4,7 @@ This repository contains dotfiles and installation scripts for setting up new in
 macOS scripts supports installing brew, cask and cask-fonts with set of apps and binaries. Setting up zsh, nvm,
 iTerm2 preferences, vim config, gitconfig and Github SSH key.
 
-Arch Linux version si still in progress.
+Arch Linux version is still in progress.
 
 ## Setup macOS
 1. clone repo to `$HOME/.dotfiles` directory
