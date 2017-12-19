@@ -9,6 +9,7 @@ if type -p brew &>/dev/null; then
     apps=(
         arduino
         caffeine
+        cakebrew
         dropbox
         firefox
         font-mononoki-nerd-font
@@ -19,6 +20,7 @@ if type -p brew &>/dev/null; then
         slack
         spotify
         studio-3t
+        transmission
         virtualbox
         vlc
         webstorm
