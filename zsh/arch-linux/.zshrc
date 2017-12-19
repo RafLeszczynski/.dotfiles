@@ -51,7 +51,9 @@ plugins=(
   archlinux
   alias-tips
   aws
+  colored-man-pages
   docker
+  frontend-search
   git
   heroku
   history

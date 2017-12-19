@@ -53,7 +53,9 @@ plugins=(
   aws
   brew
   cask
+  colored-man-pages
   docker
+  frontend-search
   git
   heroku
   history
