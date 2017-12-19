@@ -49,24 +49,24 @@ DISABLE_AUTO_UPDATE="true"
 #ZSH_CUSTOM=$HOME/.oh-my-zsh/custom
 
 plugins=(
-  alias-tips
-  aws
-  brew
-  cask
-  colored-man-pages
-  docker
-  frontend-search
-  git
-  heroku
-  history
-  jira
-  node
-  npm
-  nvm-auto-use
-  osx
-  web-search
-  zsh-autosuggestions
-  zsh-syntax-highlighting
+    alias-tips
+    aws
+    brew
+    cask
+    colored-man-pages
+    docker
+    frontend-search
+    git
+    heroku
+    history
+    jira
+    node
+    npm
+    nvm-auto-use
+    osx
+    web-search
+    zsh-autosuggestions
+    zsh-syntax-highlighting
 )
 
 

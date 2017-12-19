@@ -48,23 +48,23 @@ DISABLE_AUTO_UPDATE="true"
 #ZSH_CUSTOM=$HOME/.oh-my-zsh/custom
 
 plugins=(
-  archlinux
-  alias-tips
-  aws
-  colored-man-pages
-  docker
-  frontend-search
-  git
-  heroku
-  history
-  jira
-  node
-  npm
-  nvm-auto-use
-  systemd
-  web-search
-  zsh-autosuggestions
-  zsh-syntax-highlighting
+    archlinux
+    alias-tips
+    aws
+    colored-man-pages
+    docker
+    frontend-search
+    git
+    heroku
+    history
+    jira
+    node
+    npm
+    nvm-auto-use
+    systemd
+    web-search
+    zsh-autosuggestions
+    zsh-syntax-highlighting
 )
 
 
